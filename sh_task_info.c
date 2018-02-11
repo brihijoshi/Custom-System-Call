@@ -13,5 +13,5 @@
 
 long sh_task_info(int pid, char *fname)
 {
-	return syscall(318, pid, fname);
+	return syscall(314, pid, fname);
 }
